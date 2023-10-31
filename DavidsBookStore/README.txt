@@ -21,3 +21,5 @@ oct 31 0640 right click on solution icon to create new project but not getting o
 write code for dropdown button, dropdown was not working, searched bootstrap dropdown and got the solutions
 changed dropdown with content management
 
+new project option is showing, it was not showing because application was running.
+
