@@ -16,3 +16,8 @@ replaced site.cs 's code
 added additional provided css and js links on layout file
 
 
+oct 31 0640 right click on solution icon to create new project but not getting option to create a new project
+
+write code for dropdown button, dropdown was not working, searched bootstrap dropdown and got the solutions
+changed dropdown with content management
+
