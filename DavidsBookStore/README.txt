@@ -48,3 +48,9 @@ November 5, 2023  - started Assignment-2 =============================
 2245 added new migration 'AddCategoryToDb'
 
 2249 updated ApplicationDbContext.cs 
+
+2255 tried some command by searching googli like Remove-Migration, but did not work, so deleted the migration file from folder mannually.
+      HOPE it is right way
+
+2256 run the command "add-migration AddCategoryToDb"
+
