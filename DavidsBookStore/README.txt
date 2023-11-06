@@ -45,3 +45,6 @@ November 5, 2023  - started Assignment-2 =============================
 
 2229 run application, and did not encounter with any error.
 2241 created the Category.cs file, and edit as instructed
+2245 added new migration 'AddCategoryToDb'
+
+2249 updated ApplicationDbContext.cs 
