@@ -65,3 +65,8 @@ November 6
 
 1418 still coding in CategoryRepository.cs and in ICategoryRepository.cs , some error are still persisting
 1430 delete all category repository related file and gonna do part 2 from beginning
+
+1435 I added two folder in DataAccess.csproj, which I did not added before.
+1451 in ppsx, it is written that modify the code but not to copy the whole repo.cs file. 
+
+1531 created ICategoryRepository.cs, and edited it as instructed
