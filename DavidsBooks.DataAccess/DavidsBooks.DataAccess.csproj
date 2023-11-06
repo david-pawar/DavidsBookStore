@@ -15,4 +15,8 @@
     <ProjectReference Include="..\DavidsBooks.Utility\DavidsBooks.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repository\IRepository\" />
+  </ItemGroup>
+
 </Project>

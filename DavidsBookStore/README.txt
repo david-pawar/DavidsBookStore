@@ -59,3 +59,9 @@ November 6
 1321 modified IRepository.cs file
 1347 was writing Repository.cs file, then saw the files have been provided, copied them and edit, hope I did right
 
+1403 in CategoryRepository.cs facing an error in line where I declare public class ______;
+ ERROR : Error	CS0307	The namespace 'DavidsBooks.DataAccess.Repository' cannot be used with type arguments	DavidsBooks.DataAccess	
+         C:\Users\david\Source\Repos\DavidsBookStore\DavidsBooks.DataAccess\Repository\CategoryRepository.cs	12	Active
+
+1418 still coding in CategoryRepository.cs and in ICategoryRepository.cs , some error are still persisting
+1430 delete all category repository related file and gonna do part 2 from beginning
