@@ -70,3 +70,7 @@ November 6
 1451 in ppsx, it is written that modify the code but not to copy the whole repo.cs file. 
 
 1531 created ICategoryRepository.cs, and edited it as instructed
+implement interface
+and updated     public void update's code 
+1536 ran the project and it ran withour error,
+
