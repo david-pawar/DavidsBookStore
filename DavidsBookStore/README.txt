@@ -43,4 +43,5 @@ November 5, 2023  - started Assignment-2 =============================
 2223 ran update-database    command
 2224 reviewed the tables in SQL server object explorer
 
-2229 run application, and did not encounter with any error
+2229 run application, and did not encounter with any error.
+2241 created the Category.cs file, and edit as instructed
