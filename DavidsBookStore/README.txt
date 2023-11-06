@@ -54,3 +54,8 @@ November 5, 2023  - started Assignment-2 =============================
 
 2256 run the command "add-migration AddCategoryToDb"
 
+November 6
+
+1321 modified IRepository.cs file
+1347 was writing Repository.cs file, then saw the files have been provided, copied them and edit, hope I did right
+
