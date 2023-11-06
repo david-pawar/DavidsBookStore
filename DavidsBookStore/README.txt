@@ -63,6 +63,8 @@ November 6
  ERROR : Error	CS0307	The namespace 'DavidsBooks.DataAccess.Repository' cannot be used with type arguments	DavidsBooks.DataAccess	
          C:\Users\david\Source\Repos\DavidsBookStore\DavidsBooks.DataAccess\Repository\CategoryRepository.cs	12	Active
 
+FIX = change keyword from class to interface of IRepository
+
 1418 still coding in CategoryRepository.cs and in ICategoryRepository.cs , some error are still persisting
 1430 delete all category repository related file and gonna do part 2 from beginning
 
@@ -73,4 +75,9 @@ November 6
 implement interface
 and updated     public void update's code 
 1536 ran the project and it ran withour error,
+
+1617 encounter with an error in SP_Call.cs 
+ ERROR
+
+ 1631 update sp_call.cs code
 

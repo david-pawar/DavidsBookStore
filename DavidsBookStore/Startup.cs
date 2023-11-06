@@ -1,3 +1,4 @@
+using DavidsBooks.DataAccess.Repository;
 using DavidsBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,6 +35,7 @@ namespace DavidsBookStore
 
             services.AddDefaultIdentity<IdentityUser>() //(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<UnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 
