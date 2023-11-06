@@ -23,3 +23,24 @@ changed dropdown with content management
 
 new project option is showing, it was not showing because application was running. close the app and created all projects
 
+
+
+
+November 5, 2023  - started Assignment-2 =============================
+
+
+
+
+
+2209 downloaded the provided guiding ppsx
+
+2210 first cleaned the solution and then build the solution - I am glad to see 4 succeeded messaged while doing both
+
+2217 ran the migration, and got the same red message which is shown in ppsx, however, did  not get yellow color warning or depracated version,
+     and then checked my versions of packages, and they are installed with latest version 5
+
+2219 changed the default project and no more red lines, I chose the 'AddDefaultIdentityMigration' as the name of the migration
+2223 ran update-database    command
+2224 reviewed the tables in SQL server object explorer
+
+2229 run application, and did not encounter with any error
