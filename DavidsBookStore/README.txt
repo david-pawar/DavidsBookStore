@@ -39,20 +39,21 @@ November 5, 2023  - started Assignment-2 =============================
 2217 ran the migration, and got the same red message which is shown in ppsx, however, did  not get yellow color warning or depracated version,
      and then checked my versions of packages, and they are installed with latest version 5
 
-2219 changed the default project and no more red lines, I chose the 'AddDefaultIdentityMigration' as the name of the migration
+2219 changed the default project and no more red lines, I chose the 'AddDefaultIdentityMigration' as the name of the migration   ===========name
 2223 ran update-database    command
 2224 reviewed the tables in SQL server object explorer
 
 2229 run application, and did not encounter with any error.
 2241 created the Category.cs file, and edit as instructed
-2245 added new migration 'AddCategoryToDb'
+2245 added new migration 'AddCategoryToDb'                 ============name
+20231106035726_AddCategorytoDb
 
 2249 updated ApplicationDbContext.cs 
 
-2255 tried some command by searching googli like Remove-Migration, but did not work, so deleted the migration file from folder mannually.
+2255 tried some command by searching googli like Remove-Migration, but did not work, so deleted the migration file from folder mannually.     
       HOPE it is right way
 
-2256 run the command "add-migration AddCategoryToDb"
+2256 run the command "add-migration AddCategoryToDb"              ==============name
 
 November 6
 
@@ -84,4 +85,10 @@ and updated     public void update's code
 1650 created UnitOfWork.cs files
 1656 edited startup.cs file
 1721 fixed some erroe, before did not added th #endregion, added now
+
+
+november 14
+created categoryController.cs was getting error, now solved that, files were get created in wrong folder, did all wrong work after that.
+created categorycontroller and index in admin/category/index.cshtml file, pasted HTML code in the files, but interface is not showing
+
 

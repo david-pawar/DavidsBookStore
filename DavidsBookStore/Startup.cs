@@ -35,7 +35,7 @@ namespace DavidsBookStore
 
             services.AddDefaultIdentity<IdentityUser>() //(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddScoped<UnitOfWork, UnitOfWork>();
+            services.AddScoped<IUnitOfWork, IUnitOfWork>();
             services.AddControllersWithViews();
         }
 
