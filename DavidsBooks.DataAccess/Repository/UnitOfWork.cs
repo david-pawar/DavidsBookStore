@@ -10,10 +10,10 @@ using DavidsBookStore.DataAccess.Data;
 
 namespace DavidsBooks.DataAccess.Repository
 {
-    public class IUnitOfWork
+    public class UnitOfWork
     {
         private readonly ApplicationDbContext _db;
-        public IUnitOfWork(ApplicationDbContext db)
+        public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             Category = new CategoryRepository(_db);

@@ -92,3 +92,4 @@ created categoryController.cs was getting error, now solved that, files were get
 created categorycontroller and index in admin/category/index.cshtml file, pasted HTML code in the files, but interface is not showing
 
 
+

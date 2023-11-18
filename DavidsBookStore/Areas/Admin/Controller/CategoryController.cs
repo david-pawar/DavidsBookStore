@@ -13,8 +13,8 @@ namespace DavidsBookStore.Areas.Admin.Controllers
     public class CategoryController : Controller
     {
 
-        private readonly IUnitOfWork _unitOfWork;
-        public CategoryController(IUnitOfWork unitOfWork)
+        private readonly UnitOfWork _unitOfWork;
+        public CategoryController(UnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
