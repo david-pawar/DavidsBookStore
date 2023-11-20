@@ -115,5 +115,6 @@ ref. line 61 of README
 1211 my current repository.cs has two two functions two remove, two GetFirstOrDefault, etc.
 added Repository.cs which is provided by folder in my project, so far no error
 
+1258 recreated IUnitOfWork and UnitOfWork, bcs it was showing some error
 
 
