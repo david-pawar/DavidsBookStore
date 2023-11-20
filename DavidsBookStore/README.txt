@@ -117,4 +117,10 @@ added Repository.cs which is provided by folder in my project, so far no error
 
 1258 recreated IUnitOfWork and UnitOfWork, bcs it was showing some error
 
+fixed some errors coming in adding service in Startup.cs, fixed that, I removed the extension of IUnitOfWork. then added back.
+
+1340 : I did all as instructed in ppsx,  but I am not gettig that interface that should be there by coping in Area\View\Index.cshtml;
+ the categoryList and add new category interface.
+
+1404 : now when i run application, nothing happen, noting displayed.
 

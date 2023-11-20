@@ -22,9 +22,4 @@
     <ProjectReference Include="..\DavidsBooks.Models\DavidsBooks.Models.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Controller\" />
-    <Folder Include="Areas\Customer\Controllers\" />
-  </ItemGroup>
-
 </Project>
