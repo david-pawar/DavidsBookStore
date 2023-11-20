@@ -91,5 +91,29 @@ november 14
 created categoryController.cs was getting error, now solved that, files were get created in wrong folder, did all wrong work after that.
 created categorycontroller and index in admin/category/index.cshtml file, pasted HTML code in the files, but interface is not showing
 
+nov 20 
+
+I did work before today, but after commiting did not push that and project was not running, so closed visual studio and recloned project, and 
+work was not here
+
+anyways, I remember it just have to again
+
+1152 - My project is not producing desired results, So reviwing it
+In slide 4 of part-2, at the end , it say update the database and confirm new table "category " via SQL SOE .
+I guess I missed that step as my readme file has saying nothing about this step
+
+[Missed step] - on slide-6, it says to add a line in data.dataacess.csproj 
+added now 
+<Folder Include="Repository\IRepository\" />
+
+1206 - slide 7 says to modify code to create the constructors and dependency injection
+see assignment-2 folder
+
+now, if compare code of repository,cs from folder and mine project one, both are different
+ref. line 61 of README
+
+1211 my current repository.cs has two two functions two remove, two GetFirstOrDefault, etc.
+added Repository.cs which is provided by folder in my project, so far no error
+
 
 
