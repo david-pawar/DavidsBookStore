@@ -3,10 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-//using DavidsBooks.Models;
-//using DavidsBooks.DataAccess.Repository.IRepository;
 using DavidsBooks.DataAccess.Repository;
 using DavidsBooks.DataAccess.Repository.IRepository;
+using DavidsBooks.Models;
 
 namespace DavidsBookStore.Area.Admin.Controllers
 {

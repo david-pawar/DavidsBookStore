@@ -142,4 +142,8 @@ FINALLY, I AM HAPPY. I read alot of slides today, from part slides to to today's
 
 1348  added IActionResult upsert in CategoryController.cs
 
+1425  ERROR : everything is done okay, but when i click on create new category, it shows error 
+
+"InvalidOperationException: The model item passed into the ViewDataDictionary is of type 
+'DavidsBooks.Models.Category', but this ViewDataDictionary instance requires a model item of type 'System.Int32'."
 
