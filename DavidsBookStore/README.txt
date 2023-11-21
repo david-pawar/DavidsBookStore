@@ -127,6 +127,19 @@ fixed some errors coming in adding service in Startup.cs, fixed that, I removed 
      : normal page is opening, added category link in dropdown but Category link is not opening. I am doing further work, its been long time 
      fixing this error,
 
+
+     November 21 
+
 0450 updated Category/Index.cshtml, Category/Upsert.cshtml, I had contoller folder in Customer folder, but I was not getting any result,
       I moved that back to root directory, S
       still not getting Category class displayed, but I am doing further work.
+
+1304  I did not move the controllers folder in Customer folder in part1, that was error, I did that and now can see index file without error, but category.cshtml is not displaying
+
+1333  I deleted category.js and related files, and created all stuff from first square.
+
+FINALLY, I AM HAPPY. I read alot of slides today, from part slides to to today's slides. But, that mundane work paid off.
+
+1348  added IActionResult upsert in CategoryController.cs
+
+
