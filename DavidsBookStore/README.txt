@@ -124,3 +124,5 @@ fixed some errors coming in adding service in Startup.cs, fixed that, I removed 
 
 1404 : now when i run application, nothing happen, noting displayed.
 
+     : normal page is opening, added category link in dropdown but Category link is not opening. I am doing further work, its been long time 
+     fixing this error,

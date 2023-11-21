@@ -6,21 +6,34 @@ using System.Threading.Tasks;
 using DavidsBooks.Models;
 using DavidsBooks.DataAccess.Repository.IRepository;
 using DavidsBooks.DataAccess.Repository;
-using DavidsBooks.Models;
 
 namespace DavidsBookStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
-     
     public class CategoryController : Controller
     {
-        private readonly IUnitOfWork _unitOfWork;
-        public CategoryController(IUnitOfWork unitOfWork)
+
+        private readonly UnitOfWork _unitOfWork;
+        public CategoryController(UnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
+
+
         public IActionResult Index()
         {
+            return View();
+        }
+        public IActionResult Upsert(int? id)
+        {
+            Category category = new Category();
+            if(id == null) {
+                return View(category);
+            }
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if (category == null) {
+                return NotFound();
+            }
             return View();
         }
 
