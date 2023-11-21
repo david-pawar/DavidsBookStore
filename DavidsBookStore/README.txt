@@ -126,3 +126,7 @@ fixed some errors coming in adding service in Startup.cs, fixed that, I removed 
 
      : normal page is opening, added category link in dropdown but Category link is not opening. I am doing further work, its been long time 
      fixing this error,
+
+0450 updated Category/Index.cshtml, Category/Upsert.cshtml, I had contoller folder in Customer folder, but I was not getting any result,
+      I moved that back to root directory, S
+      still not getting Category class displayed, but I am doing further work.
