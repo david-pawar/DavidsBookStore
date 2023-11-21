@@ -13,8 +13,8 @@ namespace DavidsBookStore.Areas.Admin.Controllers
     public class CategoryController : Controller
     {
 
-        private readonly UnitOfWork _unitOfWork;
-        public CategoryController(UnitOfWork unitOfWork)
+        private readonly IUnitOfWork _unitOfWork;
+        public CategoryController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
@@ -45,7 +45,7 @@ namespace DavidsBookStore.Areas.Admin.Controllers
             {
                 if (category.Id == 0) {
                     _unitOfWork.Category.Add(category);
-                    _unitOfWork.Save();
+                   // _unitOfWork.Save();
 
                 }
                 else {
@@ -59,7 +59,7 @@ namespace DavidsBookStore.Areas.Admin.Controllers
 
 
 
-        #region API CALLS
+        #region #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
         {
