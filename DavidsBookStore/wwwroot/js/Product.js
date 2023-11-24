@@ -13,9 +13,9 @@ function loadDataTable() {
         "columns": [
             { "data": "title", "width": "15%" },
             { "data": "isbn", "width": "15%" },
-            { "data": "price", "width": "15%" },
+            { "data": "listPrice", "width": "15%" },
             { "data": "author", "width": "15%" },
-            { "data": "category.Name", "width": "15%" },
+            { "data": "category.name", "width": "15%" },
             {
                 "data": "id",
                 "render": function (data) {
@@ -49,7 +49,7 @@ function Delete(url) {
                 url: url,
                 success: function (data) {
                     if (data.success) {
-                        toastr.success(data.message);  
+                        toastr.success(data.message);  //uses toastr for notifications
                         dataTable.ajax.reload();
                     }
                     else {

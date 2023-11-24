@@ -232,3 +232,25 @@ to 'DavidsBooks.DataAccess.Repository.IRepository.ICoverTypeRepository'. An expl
 1604 installed Microsoft.AspNetCore.Mvc.ViewFeatures
 
 1644 created productController.cs and Product.js
+
+1657   on section -3 
+
+1658 created upsert.cshtml
+
+there is asked to created account on tiny.clound to add text area, I created account but I do not know further step ,so copied textarea
+ provided in slides.
+
+1705 forgot to created ProductVM,cs got error so create now,
+
+1717 ran the application and product option has a weird error, that it is not adding price 
+
+ERROR: DataTables warning: table id=tblData - Requested unknown parameter 'price' for row 0, column 2. For more information about this error, please see http://datatables.net/tn/4
+
+FIX :    there was typo in Product.js  , I wrote price instead on listPrice on line 16
+
+new error : i am unable to see category field's data 
+
+ERROR: DataTables warning: table id=tblData - Requested unknown parameter 'category.Name' for row 0, column 4. For more information about this error, please see http://datatables.net/tn/4
+
+FIX:  I wrote category.Name instead of category.name  (if my memory serves accurately, category.Name was written in slides)
+anyways, data is showing correctly. I am happy, finally its done
