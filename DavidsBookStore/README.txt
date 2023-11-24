@@ -216,3 +216,16 @@ to 'DavidsBooks.DataAccess.Repository.IRepository.ICoverTypeRepository'. An expl
 1343  added delete CoverType in API CALLS
 1354 forgot to add CoverType.js , added now, and its functional and working now
 
+1401  added Product.cs class in Project,
+      updated ApplicationDbContext
+
+1414  20231124191349_addProductToDb  added migration and update database   ================================================NAME
+1415  In SOE, review the new products table and its there with other tables
+
+1415 made title ISBN and author required fields
+
+1416 20231124191555_addValidationToProduct    ==============================================NAME
+     and updated database
+
+
+
