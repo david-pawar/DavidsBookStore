@@ -152,3 +152,56 @@ FINALLY, I AM HAPPY. I read alot of slides today, from part slides to to today's
 1010   all application is working correctly, before I did not added the IActionResult GetAll in CategoryController.js 
 FIX: now I added that code, Now app is working good
 
+1013    review further steps, which I done before, I found a typo: rather than writing category.js I wrote Category.js
+1016   ERROR    I am creating category, but it does not show in category list
+
+there are more stuff do , I guess, if I want to add category
+
+Added IActionResult Delete in CategoryController.cs , 
+in Upsert.cshtml  changed @if (Model.Id != null)    ->   @if (Model.Id != 0)   on line 12
+
+1026   added this code   onclick=Delete("/Admin/Category/Delete/${data}")    in Category.js on line 23
+
+1230 added delete function in category.js
+
+slides end, hope this will work and dont have to read all slides from beginning.
+
+Hurayyyyyyy!   - it worked, amazing
+
+
+
+
+
+                                                       NOV 24  -   FINALLY ON Part 3
+
+
+
+SECTION-1 
+
+1039   I have already added CoverType.cs in the project
+       I have already added CoverTypeRepository.cs and ICoverTypeRepository.cs
+
+1042 added CoverTypeRepository.cs and ICoverTypeRepository.cs  in UnitOfWork and IUnitOfWork, but it showing a little error
+
+ERROR in UNITOFWORK 
+
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	CS1729	'CoverTypeRepository' does not contain a constructor that takes 1 arguments	DavidsBooks.DataAccess	
+1057, some error get fixed but, one error still persist
+
+in UnitOfWork.cs: 
+Error	CS1729	'CoverTypeRepository' does not contain a constructor that takes 1 arguments	
+
+fix above error by adding constructor with one parameter
+
+1109 : error - Cannot implicitly convert type 'DavidsBooks.DataAccess.Repository.CoverTypeRepository' 
+to 'DavidsBooks.DataAccess.Repository.IRepository.ICoverTypeRepository'. An explicit conversion exists (are you missing a cast?)
+
+1113 going to do IUnitOfWork and UnitOfWork parts again
+
+1132 ERROR CAUSE: I did not perform all steps, did not added covertype controller and view,
+1310 all steps has been performed - created ICoverTypeRepository, Updated IUnitOfWork.cs and UnitOfWork, create CoverTypeRepository and 
+     ICoverTypeRepository.cs 
+
+     create migraation and updated database - 20231124175650_CoverTypeToTheDatabase.cs    ========NAME
+

@@ -1,11 +1,11 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using DavidsBooks.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using DavidsBooks.Models;
 
-namespace DavidsBookStore.DataAccess.Data
+namespace DavidsBookStore.DataAccess.Data 
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -13,6 +13,10 @@ namespace DavidsBookStore.DataAccess.Data
             : base(options)
         {
         }
+
         public DbSet<Category> Categories { get; set; }
+
+        public DbSet<CoverType> CoverTypes { get; set; }
+
     }
 }
