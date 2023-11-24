@@ -205,3 +205,14 @@ to 'DavidsBooks.DataAccess.Repository.IRepository.ICoverTypeRepository'. An expl
 
      create migraation and updated database - 20231124175650_CoverTypeToTheDatabase.cs    ========NAME
 
+1331  added CoverType link in _Layout.cshtml on line 32 
+
+1331  added CoverTypeController.cs   - I wrote it before, to save my work i copied that somewhere, and now I just copied again from there
+
+1336  create CoverType folder in View, and added Index.cshtml file in it
+
+1340  added upsert.cshtml file in it
+
+1343  added delete CoverType in API CALLS
+1354 forgot to add CoverType.js , added now, and its functional and working now
+
