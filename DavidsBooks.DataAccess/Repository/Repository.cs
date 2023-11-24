@@ -46,7 +46,7 @@ namespace DavidsBooks.DataAccess.Repository
             if (orderBy != null) {
                 return orderBy(query).ToList();
             }
-            return query.ToList();      // returns the IEnumerable based on the conditions of the query
+            return query.ToList();     
         }
 
         public T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)

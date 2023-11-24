@@ -228,4 +228,7 @@ to 'DavidsBooks.DataAccess.Repository.IRepository.ICoverTypeRepository'. An expl
      and updated database
 
 
+1549  created ProductController.cs
+1604 installed Microsoft.AspNetCore.Mvc.ViewFeatures
 
+1644 created productController.cs and Product.js
