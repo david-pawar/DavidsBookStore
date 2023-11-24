@@ -40,13 +40,17 @@ namespace DavidsBookStore.Area.Admin.Controllers
 
 
 
-        #region API CALLS
+        #region API CALLS 
         [HttpGet]
+
         public IActionResult GetAll()
         {
+            //return NotFound();
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
         }
+
         #endregion
+
     }
 }

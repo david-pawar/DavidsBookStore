@@ -147,3 +147,8 @@ FINALLY, I AM HAPPY. I read alot of slides today, from part slides to to today's
 "InvalidOperationException: The model item passed into the ViewDataDictionary is of type 
 'DavidsBooks.Models.Category', but this ViewDataDictionary instance requires a model item of type 'System.Int32'."
 
+2023-11-24  
+
+1010   all application is working correctly, before I did not added the IActionResult GetAll in CategoryController.js 
+FIX: now I added that code, Now app is working good
+
