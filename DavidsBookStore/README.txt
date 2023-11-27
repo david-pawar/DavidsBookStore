@@ -254,3 +254,11 @@ ERROR: DataTables warning: table id=tblData - Requested unknown parameter 'categ
 
 FIX:  I wrote category.Name instead of category.name  (if my memory serves accurately, category.Name was written in slides)
 anyways, data is showing correctly. I am happy, finally its done
+
+2023-11-27
+
+1424   adding cover types and products to application.
+    
+WRONG FUNCTIONING =  when I go to add product, when I dropdown the select  the covertype it shows category list, FIX it in Admin/Views/Product/Upsert.cshtml 
+
+1438   now realized, image and discription sections are not showing. I think if I am adding image and description , they should be displayed.
