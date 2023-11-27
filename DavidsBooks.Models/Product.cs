@@ -25,6 +25,7 @@ namespace DavidsBooks.Models
         [Required]
         [Range(1, 10000)]
         public double ListPrice { get; set; }
+
        
 
         [Required]
