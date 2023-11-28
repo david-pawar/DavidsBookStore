@@ -262,3 +262,10 @@ anyways, data is showing correctly. I am happy, finally its done
 WRONG FUNCTIONING =  when I go to add product, when I dropdown the select  the covertype it shows category list, FIX it in Admin/Views/Product/Upsert.cshtml 
 
 1438   now realized, image and discription sections are not showing. I think if I am adding image and description , they should be displayed.
+
+1703   gonna try to display products on the home page.
+
+did - added product's link and remove link of home page from nav bar, that did not work, I want when I open the app, that products displayed.
+
+2105 dont know where API CALLS disappear from my all three controller classes, adding again in them from old commits
+
