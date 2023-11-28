@@ -57,7 +57,6 @@ namespace DavidsBookStore.Areas.Admin.Controllers
             return View(coverType);
         }
 
-
         #region API CALLS 
         [HttpGet]
 

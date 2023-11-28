@@ -269,3 +269,6 @@ did - added product's link and remove link of home page from nav bar, that did n
 
 2105 dont know where API CALLS disappear from my all three controller classes, adding again in them from old commits
 
+nov 28 = API calls again disappear, gonna copy from old commits
+
+
