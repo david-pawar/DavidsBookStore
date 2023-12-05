@@ -22,7 +22,7 @@ ERROR - write code for dropdown button, dropdown was not working, searched boots
 changed dropdown with content management
 
 new project option is showing, it was not showing because application was running. close the app and created all projects
-
+did some edits in productController, product.cs and upsert of product, but it was not working.
 
 
 
